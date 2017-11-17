@@ -16,13 +16,13 @@ The project will also compare ratings of movies and determine if the director of
 
 ## TECHNICAL DESCRIPTION
 **Format**
-The final project will be an HTML page. The data that will be read into our HTML page will be from an API.
+The final project will be an Shiny app. The data that will be read into our app will be from an API.
 
 **Data Wrangling**
 To get the data that we want, we have to create data frames with the information that we get from the API. For example, we might want to make a data frame of each movie with basic information for the movie (title, year, summary, director, etc).
 
 **Libraries used**
-We will be utilizing the `plot.ly` library to generate graphs and data visualizations. We will also be using the `dplyr` and `knitr` libraries to format the HTML page and extract the data we want.
+We will be utilizing the `plot.ly` library to generate graphs and data visualizations. We will also be using the `dplyr` and `knitr` libraries to format the app and extract the data we want.
 
 **Questions to be answered**
 1. What is the chronological order that Studio Ghibli movies were released? (Timeline of all movies)
