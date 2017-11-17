@@ -1,6 +1,6 @@
 # Info 201 Final Project Proposal
 
-**Link to GitHub repository:** _[https://github.com/yizheng-yang/Info_201_AE_Final_Project]_
+**Link to GitHub repository:** https://github.com/yizheng-yang/Info_201_AE_Final_Project
 
 ## PROJECT DESCRIPTION
 **Background of Data Set**
