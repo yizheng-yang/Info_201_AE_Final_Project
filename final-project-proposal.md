@@ -16,7 +16,7 @@ The project will also compare ratings of movies and determine if the director of
 
 ## TECHNICAL DESCRIPTION
 **Format**
-The final project will be an Shiny app. The data that will be read into our app will be from an API.
+The final project will be a Shiny app. The data that will be read into our app will be from an API.
 
 **Data Wrangling**
 To get the data that we want, we have to create data frames with the information that we get from the API. For example, we might want to make a data frame of each movie with basic information for the movie (title, year, summary, director, etc).
