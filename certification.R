@@ -90,8 +90,8 @@ kids.movies.data <- mutate(kids.movies.data, text = paste0(female, "% of the cre
 #most popular adult movies
 p1 <- plot_ly(adult.movies.data, x = ~title, y = ~female, type = 'bar', 
              text = ~text, textposition = 'auto',
-             marker = list(color = 'rgb(158,202,225)',
-                           line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+             marker = list(color = 'rgba(30,182,182,0.7)'
+                           )) %>%
   layout(title = "Percent of Women Crew in Top 20 Most Popular Adult Movies",
          xaxis = list(title = "Movies"),
          yaxis = list(title = "Percentage of Women Crew"),
@@ -101,8 +101,8 @@ p1 <- plot_ly(adult.movies.data, x = ~title, y = ~female, type = 'bar',
 #most popular kids movies
 p2 <- plot_ly(kids.movies.data, x = ~title, y = ~female, type = 'bar', 
              text = ~text, textposition = 'auto',
-             marker = list(color = 'rgb(158,202,225)',
-                           line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+             marker = list(color = 'rgba(24,138,138,0.7)'
+                           )) %>%
   layout(title = "Percent of Women Crew in Top 20 Most Popular Kids Movies",
          xaxis = list(title = "Movies"),
          yaxis = list(title = "Percentage of Women Crew"),

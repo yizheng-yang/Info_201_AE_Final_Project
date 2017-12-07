@@ -6,6 +6,9 @@
 **Background of Data Set**
 For our final project, our group will be using the Studio Ghibli API. This API does not require any authentication (it does not require any API keys). It has endpoints containing basic information like movie title, summary, release date, director. This API is compiled by Juan Soto, and the creator’s repository can be found on his github website at https://github.com/sotojuan.
 
+**UPDATE**
+After exploring this API more, we decided to change to a new API from [The Movie DB](https://www.themoviedb.org/) because it contained more complete information and also are larger dataset to work with.
+
 **Target Audience**
 The target audience for this project is anyone who has interests in anime or in any particular Studio Ghibli film they would like to know more information about.
 

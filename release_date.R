@@ -75,7 +75,7 @@ movies.2017 <- mutate(movies.2017, movies.ratio.2017)
 a <- list(
   title = "Movie",
   showticklabels = TRUE,
-  tickangle = 45
+  tickangle = 35
 )
 
 # Barplot of Cast Ratio 1990
@@ -105,7 +105,7 @@ p.2010 <- plot_ly(
     title = "Cast Gender Ratio: 2010",
     yaxis = list(title ='Female-to-male ratio'),
     xaxis = a,
-    margin = list(l=50, r=80, b=150, t=25)
+    margin = list(l=50, r=80, b=250, t=25)
   ) 
 
 # Barplot of Cast Ratio 2017
@@ -120,9 +120,5 @@ p.2017 <- plot_ly(
     title = "Cast Gender Ratio: 2017",
     yaxis = list(title ='Female-to-male ratio'),
     xaxis = a,
-    margin = list(l=50, r=100, b=180, t=25)
+    margin = list(l=50, r=100, b=250, t=25)
   ) 
-
-# An overall trend that can be seen in these gender ratio charts is that 
-# the ratio of females are increasing as the release date of the movie gets 
-# closer to 2017.
