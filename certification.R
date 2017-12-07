@@ -1,6 +1,6 @@
 #api.key <- "a3e64d9be5b333a41e4a2182ce906597"
 #load libraries
-library(plotly)
+library("plotly")
 library("jsonlite")
 library("dplyr")
 library("httr")
@@ -107,3 +107,7 @@ p2 <- plot_ly(kids.movies.data, x = ~title, y = ~female, type = 'bar',
          xaxis = list(title = "Movies"),
          yaxis = list(title = "Percentage of Women Crew"),
          margin = list(l=50, r=80, b=150, t=25))
+
+text2 <- "The two graphs shows the percentage of female crew members of top popular movies from different
+ratings(rated R and rated G). From the graph we can see that, with the exception of a few outliers, almost
+all of the movies have only thirty percent or less female crew members."

@@ -6,16 +6,14 @@
 **Background of Data Set**
 For our final project, our group will be using the Studio Ghibli API. This API does not require any authentication (it does not require any API keys). It has endpoints containing basic information like movie title, summary, release date, director. This API is compiled by Juan Soto, and the creator’s repository can be found on his github website at https://github.com/sotojuan.
 
-**UPDATE**
+**BIG UPDATE**
 After exploring this API more, we decided to change to a new API from [The Movie DB](https://www.themoviedb.org/) because it contained more complete information and also are larger dataset to work with.
 
 **Target Audience**
 The target audience for this project is anyone who has interests in anime or in any particular Studio Ghibli film they would like to know more information about.
 
 **Questions that will be investigated**
-This project will investigate the timeline of different Studio Ghibli movies.
-In addition, it will also include visualizations to answer what species, locations, and people appear the most in the movies.
-The project will also compare ratings of movies and determine if the director of the movie has any relationship to the specific rating that the movie received (on a scale from 0 - 100).
+UPDATED: We are now investigating the different ways gender inequality manifests in the film industry. We will be exploring the different effects that gender has on movie popularity, year published, and audience of the movie.
 
 ## TECHNICAL DESCRIPTION
 **Format**
@@ -27,12 +25,13 @@ To get the data that we want, we have to create data frames with the information
 **Libraries used**
 We will be utilizing the `plot.ly` library to generate graphs and data visualizations. We will also be using the `dplyr` and `knitr` libraries to format the app and extract the data we want.
 
+UPDATED: We also used `jsonlite` and `httr` to read data from the API, and used a `shinythemes` library to apply a theme to the final website.
+
 **Questions to be answered**
-1. What is the chronological order that Studio Ghibli movies were released? (Timeline of all movies)
-2. How do the ratings of each movie compare with other Studio Ghibli movies?
-3. Is there a relationship between the movie’s ratings and the director of that movie?
-4. What are the different species that are seen in Studio Ghibli movies? (EX: human, spirit, cat)
-5. What are the most popular setting used in the movies? Which locations occur the most in these movies? (Land, river, forest, city, etc.)
+UPDATED
+1. Does the gender of the director affect the popularity of a movie?
+2. How does gender ratios (female-to-male) change over the past decade?
+3. Does the intended audience of the movie affect the gender of the production crew?
 
 **Anticipated challenges**
 A challenged that we might face is deciding on the format that our information will be displayed in. For instance, we have decided to use a timeline to show the order of the movies that Studio Ghibli had produced, but we will have to find a way to make the timeline more interesting by adding interactive elements to it.

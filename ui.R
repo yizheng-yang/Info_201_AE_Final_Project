@@ -16,7 +16,7 @@ shinyUI(navbarPage(
   
     title = "Gender Inequality in Movies",
     
-    tabPanel(
+    tabPanel( # home tab
       'Home',
       h1('Gender Inequality in the Movie Industry'),
       img(src="http://cinemajam.com/mag/wp-content/uploads/2015/10/angelina-jolie-directing-unbroken.jpg",
@@ -30,7 +30,7 @@ shinyUI(navbarPage(
       h2('Investigation Questions'),
       p('1. Does the gender of the director affect the popularity of a movie?'),
       p('2. How does gender ratios (female-to-male) change over the past decade?'),
-      p('3. Does the intented audience of the movie affect the gender of the production crew?'),
+      p('3. Does the intended audience of the movie affect the gender of the production crew?'),
       HTML("<br>"),
       h2('Data Set'),
       p('The data used for this project is sourced from The Movie Database.'),
@@ -76,10 +76,10 @@ shinyUI(navbarPage(
       'Adults vs. Kids Movies',
       h1('Gender of Production Crew in Adult and Kids Movies'),
       p1,
-      p2
-      #h3('Conclusion:  
-         #'),
-      #text2
+      p2,
+      h3('Conclusion'),
+      text2,
+      HTML("<br>")
     ),
     
     tabPanel( #SEARCH BAR
