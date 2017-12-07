@@ -1,9 +1,10 @@
-api.key <- "a3e64d9be5b333a41e4a2182ce906597"
+#api.key <- "a3e64d9be5b333a41e4a2182ce906597"
 #load libraries
 library(plotly)
 library("jsonlite")
 library("dplyr")
 library("httr")
+source('api-key.R')
 
 #returns the data for the top 20 most popular
 #adult movies(rated R)
@@ -93,7 +94,8 @@ p1 <- plot_ly(adult.movies.data, x = ~title, y = ~female, type = 'bar',
                            line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
   layout(title = "Percent of Women Crew in Top 20 Most Popular Adult Movies",
          xaxis = list(title = "Movies"),
-         yaxis = list(title = "Percentage of Women Crew")) 
+         yaxis = list(title = "Percentage of Women Crew"),
+         margin = list(l=50, r=80, b=150, t=25)) 
 
 #draws the graph for the percentage of women crew in top 20
 #most popular kids movies
@@ -103,4 +105,5 @@ p2 <- plot_ly(kids.movies.data, x = ~title, y = ~female, type = 'bar',
                            line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
   layout(title = "Percent of Women Crew in Top 20 Most Popular Kids Movies",
          xaxis = list(title = "Movies"),
-         yaxis = list(title = "Percentage of Women Crew"))
+         yaxis = list(title = "Percentage of Women Crew"),
+         margin = list(l=50, r=80, b=150, t=25))
