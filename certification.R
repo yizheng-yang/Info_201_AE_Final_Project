@@ -107,7 +107,13 @@ p2 <- plot_ly(kids.movies.data, x = ~title, y = ~female, type = 'bar',
          xaxis = list(title = "Movies"),
          yaxis = list(title = "Percentage of Women Crew"),
          margin = list(l=50, r=80, b=150, t=25))
+<<<<<<< HEAD
 
 text2 <- "The two graphs shows the percentage of female crew members of top popular movies from different
 ratings(rated R and rated G). From the graph we can see that, with the exception of a few outliers, almost
 all of the movies have only thirty percent or less female crew members."
+=======
+text2 <- "The two graphs shows the percentage of female crew members of top popular movies from different
+ratings(rated R and rated G). From the graph we can see that, with the exception of a few outliers, almost
+all of the movies have only thirty percent or less female crew members."
+>>>>>>> a606999f7996bf91c9bd61281db5e7179802d3bd
