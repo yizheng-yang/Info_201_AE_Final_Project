@@ -66,7 +66,7 @@ shinyUI(navbarPage(
     tabPanel(
       'Adults vs. Kids Movies',
       h1('Gender of Production Crew in Adult and Kids Movies'),
-      HTML("<br>")
+      HTML("<br>"),
       p1,
       p2,
       h3('Conclusion'),
