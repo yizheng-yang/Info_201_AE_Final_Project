@@ -52,29 +52,21 @@ shinyUI(navbarPage(
       'Publish Year',
       h1('Comparing Gender Ratio of Movie Cast'),
       HTML("<br>"),
-      p('These charts below takes the 20 most popular movies (based on user ratings from The Movie DB) for 
-        a given publish year, and compares the ratios of females to males that appear in the movie. The ratio is 
-        calculated by dividing the number of female characters by the number of male characters.
-        If the ratio is greater than 1, there are more females than males; if the ratio is less than 1, there 
-        are more males than females.'),
-      HTML("<br>"),
+      intro,
+      HTML("<br><br><br>"),
       p.1990,
       HTML("<br>"),
       p.2010,
       HTML("<br>"),
       p.2017,
       h3('Conclusion'),
-      p('An overall trend that can be seen is that the ratio of females are 
-        increasing as the release date of the movie gets closer to 2017. We can 
-        see that female roles are becoming more prevalent in popular movies than 
-        in preivous year. In 1990, only 1 out of 20 movies had more females than
-        males (a ratio of 1 or higher). In comparison, 4 out of 20 movies in 2017
-        had a gender ratio greater than 1.')
+      conclusion
     ),
     
     tabPanel(
       'Adults vs. Kids Movies',
       h1('Gender of Production Crew in Adult and Kids Movies'),
+      HTML("<br>")
       p1,
       p2,
       h3('Conclusion'),
